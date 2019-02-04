@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TEDX</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--THEME-->
+    <script src="ExpandJavascript/particles.js"></script>
+    <script src="ExpandJavascript/particles.min.js"></script>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="ExpandCSS/flipclock.css">
+    <link rel="stylesheet" href="css/Mission.css">
+    
+
+</head>
+
+<body id="index">
+    <nav class="slidingNavbar">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">About</a>
+            <a href="Speaker.html">Speaker</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+</nav>
+<div class="wholeContainer">
+    <div class="bgimg">
+        <div id="particles"></div>
+        <div id="particles-js2"></div>
+        <div class="middle">
+            <img id="Coming_soon_pic" src="images/index/TEDx logo black bg transparent-01.png" alt="Logo">
+            <p id="demo"></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about">
+            <div class="col-sm-12">
+                <br><br><br><br><h1  class="text-center slideanim Gameof" style="color:red">ABOUT US</h1>
+                <p class="text-center slideanimright">
+                        TEDx was created in the spirit of TED's mission, "ideas worth spreading." It supports independent organizers who want to create a TED-like event in their own community. 
+
+                        Aligned with this idea, TEDxManipalUniversity was born, and was a smashing success in its two editions, in 2017 and 2018. And now, we are back with a new look, TEDxManipal 2019. This year, we have an array of exemplary speakers who will be sharing their journey, parallel to the theme: Cognizance.
+                </p>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="Mission_container">
+                <header class="parallaxcont">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <h1 class="X">X</h1>
+                  </div>
+                  <div class="content_image">
+                    <h3 class="tedtalks">
+                            The purpose behind every TEDx event is to try and quench an insatiable thirst for knowledge and make people aware of the amazing things that go around in the world. Knowledge leads and moulds minds, inspires and encourages. In order to convey this very message, the chosen theme for TEDxManipal 2019 is ‘Cognizance’. With this edition, TEDxManipal aims on bringing inspiration to the 'Cognizance' of the masses.
+                    </h3>
+                  </div>
+                </header>
+    </div>
+          
+</div>
+
+<footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>TED<span>X</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Speaker</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Company Name &copy; 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Manipal Institute Of Technology, Manipal</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 555 123456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript/Dis.js"></script>
+    <script src="javascript/Navbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="ExpandJavascript/flipclock.min.js"></script>
+    <script src="javascript/Clock.js"></script>
+    <script>
+
+        var countDownDate = new Date("Feb 26, 2019 9:30:00").getTime();
+        
+        var countdownfunction = setInterval(function() {
+        
+          var now = new Date().getTime();
+          
+          var distance = countDownDate - now;
+          
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+          if (distance < 0) {
+            clearInterval(countdownfunction);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+    <script>
+        particlesJS.load('particles', 'javascript/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+        particlesJS.load('particles-js2', 'javascript/particlesjs2.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script>
+    var layers = [],
+      layerElements = document.getElementsByClassName('paralayer'),
+      _scrollY = window.scrollY;
+
+    function init() {
+      for (var i = 0; i < layerElements.length; i += 1) {
+        var el = layerElements[i];
+        var offset = layerElements[i].dataset.offset;
+        layers.push({
+          el: el,
+          y: 0,
+          offset: offset
+        });
+      }
+
+      window.addEventListener('scroll', handle_scroll);
+      requestAnimationFrame(animate);
+    }
+
+    function handle_scroll(e) {
+      _scrollY = window.scrollY;
+      animateTween();
+    }
+
+
+    function animateTween() {
+      for (var i = 0; i < layers.length; i += 1) {
+        var oldY = layers[i].y;
+        layers[i].y = _scrollY * layers[i].offset;
+
+        TweenMax.to(layers[i].el, 0.5, {
+          y: layers[i].y,
+          overwrite: 'all'
+        });
+      }
+    }
+
+
+    function animate() {
+      _scrollY = window.scrollY;
+
+      for (var i = 0; i < layers.length; i += 1) {
+        var oldY = layers[i].y;
+        layers[i].y = _scrollY * layers[i].offset;
+
+        if (oldY !== layers[i].y) {
+          layers[i].el.style.transform = 'translateY(' + layers[i].y + 'px)';
+        }
+      }
+      requestAnimationFrame(animate);
+    }
+
+    init();
+  </script>
+</body>
+
+</html>
