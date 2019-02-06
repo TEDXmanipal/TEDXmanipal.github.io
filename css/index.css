@@ -6,6 +6,16 @@ body, html {
 .wholeContainer{
     background: #ffffff;
 }
+.venue span{
+  font-weight: bold;
+  color: #e22222;
+}
+.venue{
+    font-style: italic;
+    color: hsl(0, 0%, 57%);
+  }
+
+
  .bgimg {
     margin-top: 0;
     position: relative;
