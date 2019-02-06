@@ -107,12 +107,30 @@ html, body {
   left: 50%;
   font-size: 20px;
 }
+.tedtalks{
+  font-size: 20px;
+}
 }
 @media(max-width:500px) {
   .parallaxcont {
-    height: 400px;
     padding: none !important;
     margin: none !important;
+  }
+  .tedtalks{
+    font-size: 18px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .content  .X{
+    position: absolute;
+    color: red;
+    font-size: 180px;
+    font-family: Helvetica;
+    font-weight: bold;
+    transform: translate(-40%, -117%);
+    top:30%;
+    left: 50%;
   }
   .content_image img{
     height:70px;
