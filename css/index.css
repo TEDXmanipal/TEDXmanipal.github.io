@@ -90,7 +90,14 @@ body, html {
  .wholeContainer .container .about{
    margin-bottom: 400px;
  }
-
+.container-dep a{
+    text-decoration: none;
+    color: black;
+}
+.container-dep a:hover{
+    text-decoration: none;
+    color: black;
+}
  /*FOOTER*/
 
 footer {
@@ -180,7 +187,7 @@ footer p {
 
 .footer-distributed .footer-company-name span {
     color: #e22222;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     margin: 0;
 }

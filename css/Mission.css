@@ -6,7 +6,7 @@ html, body {
 }
 .parallaxcont {
   height: 400px;
-  background-image: url("../Images/Background/microphone.jpg");
+  background-image: url("../images/Background/microphone.jpg");
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;

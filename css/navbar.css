@@ -36,6 +36,9 @@ body {
   font-size: 36px;
   margin-left: 50px;
   }
+  .sidenav .attenForm {
+    color: hsl(0, 0%, 0%);
+  }
   
   #main {
     transition: margin-left .5s;
