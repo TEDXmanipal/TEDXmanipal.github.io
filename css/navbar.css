@@ -58,7 +58,9 @@ body {
     #main span{
       font-size: 18px;
     }
-    
+    ::-webkit-scrollbar {
+      width: 7px;
+  }
   }
 ::-webkit-scrollbar {
     width: 12px;
