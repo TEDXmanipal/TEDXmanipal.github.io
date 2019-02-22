@@ -96,8 +96,10 @@ body, html {
    font-family: 'Calibri';
    font: normal 24px 'Calibri';
  }
+
+
  .wholeContainer .container .about{
-   margin-bottom: 400px;
+   margin-bottom: 100px;
  }
 .container-dep a{
     text-decoration: none;
@@ -215,9 +217,6 @@ footer p {
     .navbar-brand img {
         height: 130%;
     }
-    .wholeContainer .container .about{
-        margin-bottom: 80px;
-      }
     footer p {
         font-size: 12px;
     }

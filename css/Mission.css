@@ -4,8 +4,11 @@ html, body {
 .Mission_container{
   position: relative;
 }
+
+.Mission_container .sponser_heading h1{
+  color: white;
+}
 .parallaxcont {
-  height: 400px;
   background-image: url("../images/Background/microphone.jpg");
   background-attachment: fixed;
   background-position: top center;
@@ -71,17 +74,17 @@ html, body {
 .tedtalks{
   text-align: center;
 }
+
 .content_image{
-  padding: 0;
-  position: absolute;
+  padding: 50px;
   color: white;
-  transform: translateY(-20%);
-  top: 50%;
-  margin: 0
+  margin: 0;
+  
 }
 .content_image img{
-  height: 200px;
   border: 3px solid white;
+  margin-bottom: 30px;
+  height: 300px;
 }
 
 .content_image img:hover{
@@ -134,7 +137,7 @@ html, body {
   }
   .content_image img{
     height:70px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
   .content span img{
     transform: translate(-50%, -100%);
